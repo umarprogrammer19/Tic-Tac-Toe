@@ -1,3 +1,4 @@
+// Getting Element From HTML
 let boxes = document.querySelectorAll(".box");
 let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector("#new-btn");
@@ -7,6 +8,7 @@ let msg = document.querySelector("#msg");
 let turnO = true; // playerO starts
 let count = 0; // To track moves and detect a draw
 
+// Winning Patterns
 const winPatterns = [
   [0, 1, 2],
   [0, 3, 6],
